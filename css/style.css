@@ -326,6 +326,9 @@ section {
     .contact .card {
         max-width: 300px;
     }
+    .contact .card a {
+        font-size: 0.7em;
+    }
 }
 /* @media (max-width: 769px) {
     .projects .box {
