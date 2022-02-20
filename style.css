@@ -374,12 +374,18 @@ section .title::after {
     width: 85%;
 }
 .skills-content .right .js::before {
-    width: 80%;
+    width: 90%;
 }
 .skills-content .right .php::before {
     width: 70%;
 }
-.skills-content .right .mysql::before {
+.skills-content .right .sass::before {
+    width: 85%;
+}
+.skills-content .right .jquery::before {
+    width: 73%;
+}
+.skills-content .right .git::before {
     width: 90%;
 }
 
@@ -390,7 +396,7 @@ section .title::after {
 .teams .carousel .card {
     background: #222;
     border-radius: 6px;
-    padding: 25px 35px;
+    /* padding: 25px 35px; */
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
@@ -411,16 +417,23 @@ section .title::after {
     transform: scale(1.05);
 }
 .teams .carousel .card .text {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    padding: 15px 35px 10px;
+}
+.teams .carousel .card p {
+    font-size: 14px;
+    color: #999;
+    padding: 0 15px;
 }
 .teams .carousel .card img {
-    height: 150px;
-    width: 150px;
+    height: 175px;
+    max-width: 350px;
     object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid #2196f3;
+    border-bottom: 5px solid #2196f3;
+    /* border-radius: 50%;
+    border: 5px solid #2196f3; */
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img {
